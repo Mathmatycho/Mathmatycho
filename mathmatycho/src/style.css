@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/**
+ * Themeing
+*/
+
+.page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  scroll-snap-align: center;
+  width: 100vw;
+}
+
+.container {
+  height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+}
+
+/* Sections */
+
+#section1 {
+    background-color: pink;
+}
+
+#section2 {
+    background-color: yellow;
+}
+
+#section3 {    
+    background-color: yellow;
+}
